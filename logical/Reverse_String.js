@@ -1,4 +1,4 @@
-let str = "pacewisdom";
+let str = "changes";
 str = str.split("");
 let temp = "";
 
