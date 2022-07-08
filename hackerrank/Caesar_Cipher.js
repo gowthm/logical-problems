@@ -1,21 +1,27 @@
-const le = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-let s = "Always-Look-on-the-Bright-Side-of-Life";
-s = s.split('');
-console.log(s)
-const k = 5;
-const arr = [];
-s.map(data => {
-    if(le.includes(data)) {
-        console.log(data)
-          let s = le.indexOf(data)+k;
-    if(s>25) {
-        s = s%25;
+let s = "6DWV95HzxTCHP85dvv3NY2crzt1aO8j6g2zSDvFUiJj6XWDlZvNNr";
+let k = 87;
+let tempArr = [];
+let alpha = '0abcdefghijklmnopqrstuvwxyz'.split('');
+let alphaLength = alpha.length-1;
+console.log(alphaLength, 'k')
+for (let i =0 ;i <s.length; i++) {
+  // console.log(typeof al.indexOf(s[i].toLowerCase()))
+  if(alpha.indexOf(s[i].toLowerCase()) > 0) {
+    let index = alpha.indexOf(s[i].toLowerCase());
+    
+    let t = index+k > alphaLength-1 ? index+k-alphaLength : index+k;
+    if (t > 26) {
+      t = t -26;
     }
-    arr.push(le[s]);
-    } else {
-        arr.push(data)
-    }
-  
-})
-console.log(le.indexOf('w')+5)
-console.log(arr.join().replace(/,/g, ''))
+   console.log(t)
+    // if (s[i] == alpha[alpha.indexOf(s[i])]) {
+    //   tempArr.push(alpha[t]);
+    // } else {
+    //   tempArr.push(alpha[t].toUpperCase())
+    // }
+    
+  } else {
+    tempArr.push(s[i])
+  }
+}
+console.log(tempArr.join(''))
