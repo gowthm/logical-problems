@@ -1,5 +1,5 @@
 let arr = [1, 4, 20, 3, 10, 5]
-let sum = 33 
+let sum = 33
 //Output: Sum found between indexes 2 and 4
 
 // Input: arr[] = {1, 4, 0, 0, 3, 10, 5}, sum = 7
@@ -12,19 +12,19 @@ let sum = 33
 
 console.log(findSubArray(sum))
 function findSubArray(sum) {
-   let count = 0;
-   let j=0;
-   for  (let j=0; j< arr.length; j++) {
-       count = arr[j]
-       for (let i=j+1; i<arr.length; i++) {
-    count+=arr[i];
-    console.log(count)
-    if (count == sum) {
-        return [j,i]
+    let count = 0;
+    let j = 0;
+    for (let j = 0; j < arr.length; j++) {
+        count = arr[j]
+        for (let i = j + 1; i < arr.length; i++) {
+            count += arr[i];
+            console.log(count)
+            if (count == sum) {
+                return [j, i]
+            }
+        }
     }
-}
-   }
- 
+
 }
 
 
