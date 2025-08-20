@@ -2,6 +2,7 @@
 let arr = ['vtrjvgbj', 'mkmjyaeav', 'sibzdmsk']
 
 function gemstones(arr) {
+    console.log(arr.join(''))
     let t = arr.join('').split('')
     let temp = []
     let t1 = 0;
