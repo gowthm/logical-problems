@@ -2,46 +2,24 @@
  * @param {number[]} digits
  * @return {number[]}
  */
+
 var plusOne = function (digits) {
-    let total = '';
-    digits.map((el, l) => {
-        if (digits.length - 1 == l) {
-            if (9 > el) {
-                el += 1;
-
-            } else {
-                if (total[total.length - 1]) {
-                    let s = Number(total[total.length - 1]) + 1;
-                    console.log('s', s)
-                    total = total.substring(0, total.length - 1);
-                    total += s;
-                    total += '0'
-                    console.log('t', total)
-                    return;
-                } else {
-                    console.log('el', el)
-                    el += 1;
-                }
-
-            }
-
+    for (let i = digits.length - 1; i >= 0; i--) {
+        if (digits[i] < 9) {
+            digits[i]++;
+            return digits
         }
+        digits[i] = 0;
 
-        total += el;
+    }
 
-    });
-    console.log(total)
-    // total = Number(total)+1;
-    total = String(total).split('').map(Number);
-    // console.log(total)
-    return total;
+    digits.unshift(1);
+    return digits
 
 };
-// let d = [6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3];
-// let d = [9,9]
-// let d = [9,9,9]
-let d = [9]
-console.log(plusOne(d));
+let digits =[6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5];
+console.log(plusOne(digits))
+
 
 // Example 1:
 
