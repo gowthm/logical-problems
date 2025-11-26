@@ -42,12 +42,13 @@ Each file typically contains:
 
 ## Technologies / Languages
 
-Languages may evolve over time, but common ones include:
+Right now I mainly use:
 
+- `JavaScript`
+- `TypeScript`
 - `Python`
-- `Java`
-- `C++` / `C`
-- Any other language I use while learning
+
+In the future I may add solutions in other languages as I learn them.
 
 ---
 
