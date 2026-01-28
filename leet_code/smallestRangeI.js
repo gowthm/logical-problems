@@ -6,7 +6,7 @@
 var smallestRangeI = function(nums, k) {
 
     let min = Math.min(...nums)+k;
-    let max = Math.min(...nums)-k;
+    let max = Math.max(...nums)-k;
     return Math.min(0, min-max)
     
 };
