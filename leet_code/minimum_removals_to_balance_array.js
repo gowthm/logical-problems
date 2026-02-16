@@ -16,7 +16,7 @@ var minRemoval = function (nums, k) {
 };
 
 let nums = [1, 6, 2, 9], k = 3;
-console.log(minRemoval(nums, k))
+console.log(minRemoval(nums, k));
 
 // Example 1:
 
