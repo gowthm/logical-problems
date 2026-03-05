@@ -45,7 +45,7 @@ console.log(countPoints(rings))
 // Only rod 0 has all 3 colors.
 // Example 3:
 
-// Input: rings = "G4R2B0G6R8R4G9G8G6B8"
+// Input: rings = "G4"
 
 // Output: 0
 
