@@ -1,71 +1,129 @@
-# Logical Problems
+# 🧠 Logical Problems
 
-Practice repository for improving problem solving skills in programming.
+![coding
+gif](https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif)
 
-This repo contains my solutions to logical / coding challenges from multiple platforms as part of my journey from the start of my IT career.
+🚀 A repository dedicated to improving **problem-solving skills**,
+**data structures**, and **algorithms** through continuous coding
+practice.
 
----
+This repo contains my solutions to **logical and coding challenges**
+from multiple platforms as part of my journey as a **software
+engineer**.
 
-## Main Goal
+------------------------------------------------------------------------
 
-- **Build strong problem-solving skills**
-- **Practice data structures and algorithms**
-- **Solve problems from multiple coding platforms**
-- **Track my learning progress over time**
+## 📌 Repository Goals
 
----
+-   🧠 Build strong **problem-solving skills**
+-   📚 Practice **Data Structures & Algorithms**
+-   💻 Solve problems from **multiple coding platforms**
+-   📈 Track **learning progress over time**
 
-## Problem Sources
+------------------------------------------------------------------------
 
-- **LeetCode** – algorithm and data structure problems
-- **HackerRank** – practice challenges and contests
-- **Other logical problems** – custom / interview-style questions
+## 🌐 Problem Sources
 
----
+  -----------------------------------------------------------------------
+  Platform                    Description
+  --------------------------- -------------------------------------------
+  🟠 **LeetCode**             Algorithm and Data Structure challenges
 
-## Repository Structure
+  🟢 **HackerRank**           Coding practice and interview preparation
 
-The exact structure may change as I grow this repo, but in general you can expect folders like:
+  🔵 **Logical Problems**     Custom puzzles and interview-style
+                              questions
+  -----------------------------------------------------------------------
 
-- `leetcode/` – solutions to LeetCode problems
-- `hackerrank/` – solutions to HackerRank problems
-- `logical/` – general logical / puzzle-style questions
-- `datastructures/` – implementations and practice for data structures
+------------------------------------------------------------------------
+
+## 📂 Repository Structure
+
+    logical-problems/
+    │
+    ├── leetcode/          # LeetCode solutions
+    ├── hackerrank/        # HackerRank challenges
+    ├── logical/           # Logical puzzle problems
+    ├── datastructures/    # Data structure implementations
 
 Each file typically contains:
 
-- **Problem name / link (in comments)**
-- **My solution implementation**
-- **Sometimes alternative approaches or optimizations**
+-   🔗 **Problem link**
+-   📝 **Short problem description**
+-   💡 **My approach**
+-   ⚙️ **Working solution**
+-   🔄 **Optimized or alternative approaches (sometimes)**
 
----
+------------------------------------------------------------------------
 
-## Technologies / Languages
+## 🛠 Languages Used
 
-Right now I mainly use:
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
+![Python](https://img.shields.io/badge/Python-green?style=for-the-badge&logo=python)
 
-- `JavaScript`
-- `TypeScript`
-- `Python`
+  Language        Usage
+  --------------- ----------------------------------
+  🟨 JavaScript   Primary problem solving language
+  🔷 TypeScript   Structured implementations
+  🐍 Python       Algorithm experimentation
 
-In the future I may add solutions in other languages as I learn them.
+------------------------------------------------------------------------
 
----
+## 📊 Learning Progress
 
-## How to Use This Repo
+    LeetCode      ██████████░░░░░░░░ 50%
+    HackerRank    ████████░░░░░░░░░░ 40%
+    Logical       █████████░░░░░░░░░ 45%
 
-- **Browse** the folders to find problems and solutions
-- **Open** a file to see how I approached the problem
-- **Run** the code locally to test or modify it
-- **Compare** different solutions / optimizations as the repo grows
+------------------------------------------------------------------------
 
-This repo is mainly for my personal learning, but you are welcome to explore and learn from it too.
+## 🧩 Problem Categories
 
----
+Problems in this repository include:
 
-## Notes
+-   Arrays
+-   Strings
+-   Recursion
+-   Backtracking
+-   Dynamic Programming
+-   Graph Algorithms
+-   Bit Manipulation
 
-- I am continuously adding new problems as I practice.
-- Code quality and structure will improve as I gain more experience.
+More categories will be added as the repository grows.
 
-Feel free to suggest improvements or new problems I should try.
+------------------------------------------------------------------------
+
+## ▶️ How to Use This Repo
+
+1.  📂 Browse the folders\
+2.  📄 Open a solution file\
+3.  ▶️ Run the code locally\
+4.  🔍 Compare different approaches
+
+This repository is mainly for **personal learning**, but others are
+welcome to explore and learn from it.
+
+------------------------------------------------------------------------
+
+## 📈 Continuous Learning
+
+-   New problems are added regularly
+-   Existing solutions may be optimized over time
+-   Code quality will improve as experience grows
+
+------------------------------------------------------------------------
+
+## 🤝 Suggestions
+
+If you have:
+
+-   Interesting **logical problems**
+-   Better **optimized solutions**
+-   Suggestions for improving the repo
+
+Feel free to share them.
+
+------------------------------------------------------------------------
+
+⭐ If you find this repository helpful, consider **starring the repo**!
