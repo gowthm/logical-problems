@@ -19,7 +19,6 @@ var minBitwiseArray = function (nums) {
 let nums = [2, 3, 5, 7]
 console.log(minBitwiseArray(nums))
 
-
 // Example 1:
 
 // Input: nums = [2,3,5,7]
