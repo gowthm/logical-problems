@@ -9,7 +9,7 @@ var minBitwiseArray = function (nums) {
         for (let j = 0; j < nums[i]; j++) {
             if ((j | (j + 1)) === nums[i]) {
                 value = j;
-                break
+                break;
             }
         }
         arr.push(value)
