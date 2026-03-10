@@ -19,6 +19,7 @@ var divideString = function (s, k, fill) {
 let s = "abcdefghi", k = 3, fill = "x";
 console.log(divideString(s, k, fill));
 
+
 // Example 1:
 
 // Input: s = "abcdefghi", k = 3, fill = "x"
@@ -29,6 +30,7 @@ console.log(divideString(s, k, fill));
 // The last 3 characters "ghi" form the third group.
 // Since all groups can be completely filled by characters from the string, we do not need to use fill.
 // Thus, the groups formed are "abc", "def", and "ghi".
+
 
 
 // Example 2:
