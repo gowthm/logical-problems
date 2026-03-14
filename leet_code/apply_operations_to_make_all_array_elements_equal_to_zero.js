@@ -17,7 +17,7 @@ var checkArray = function(nums, k) {
     return true;
 };
 
-let nums = [2,2,3,1,1,0], k = 3
+let nums = [2,2,3,1,1,0], k = 3;
 console.log(checkArray(nums, k));
 
 // Example 1:
