@@ -1,3 +1,7 @@
+
+
+// Solutions 1
+
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -19,6 +23,31 @@ var checkArray = function(nums, k) {
 
 let nums = [2,2,3,1,1,0], k = 3;
 console.log(checkArray(nums, k));
+
+// Solutions 2
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {boolean}
+ */
+var checkArray = function(nums, k) {
+    let n = nums.length;
+    let diff = new Array(n).fill(0);
+    let curr = 0;
+    for(let i=0; i<n; i++) {
+        curr = curr + diff[i];
+        let val = nums[i]+curr;
+        if (val < 0) return false;
+        if(val > 0) {
+            if(i+k > n) return false;
+            curr = curr - val
+            if(i+k < n) diff[i+k] += val;
+        }
+    }
+    return true;  
+};
+
 
 // Example 1:
 
