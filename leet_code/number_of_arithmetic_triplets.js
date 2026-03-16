@@ -52,7 +52,6 @@ console.log(arithmeticTriplets(nums, diff))
 
 // Input: nums = [4,5,6,7,8,9], diff = 2
 // Output: 2
-
 // Explanation:
 // (0, 2, 4) is an arithmetic triplet because both 8 - 6 == 2 and 6 - 4 == 2.
 // (1, 3, 5) is an arithmetic triplet because both 9 - 7 == 2 and 7 - 5 == 2.
