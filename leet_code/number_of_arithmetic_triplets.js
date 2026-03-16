@@ -1,5 +1,3 @@
-
-
 // Solution 1
 
 /**
@@ -19,7 +17,6 @@ var arithmeticTriplets = function(nums, diff) {
         }
     }
     return count;
-    
 };
 
  // Solution 2
