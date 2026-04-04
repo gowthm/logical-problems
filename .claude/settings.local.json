@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do node:*)",
+      "Bash(echo \"✓ $f\")",
+      "Bash(echo \"✗ $f\")",
+      "Bash(done)",
+      "Bash(do python3:*)",
+      "Bash(python -m py_compile ./python/base_recursion.py ./python/coin_change.py ./python/maximum_subarray.py ./python/plus_one.py ./python/reverse_words_in_a_string.py)"
+    ]
+  }
+}
