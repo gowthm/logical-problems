@@ -14,8 +14,7 @@ class Solution(object):
       else:
           return 'High Card'
             
-            
-    
+
 sol = Solution()
 print(sol.bestHand([4,4,2,4,4],["d","a","a","b","c"]))
 
