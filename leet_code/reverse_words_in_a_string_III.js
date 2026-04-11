@@ -19,6 +19,7 @@ console.log(reverseWords("Let's take LeetCode contest"))
 
 // Input: s = "Let's take LeetCode contest"
 // Output: "s'teL ekat edoCteeL tsetnoc"
+
 // Example 2:
 
 // Input: s = "Mr Ding"
