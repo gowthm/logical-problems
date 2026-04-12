@@ -24,4 +24,5 @@ Example 2:
 Input: s = "Mr Ding"
 
 Output: "rM gniD"
+
 """
