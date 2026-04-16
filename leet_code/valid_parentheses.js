@@ -1,5 +1,5 @@
 let s = "(}{)";
-let s = "({{{{}}}))";
+// let s = "({{{{}}}))";
 function isValid(s) {
   let s1 = s.split('')
      let status = false;
