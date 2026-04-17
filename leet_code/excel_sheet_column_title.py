@@ -11,3 +11,24 @@ class Solution(object):
 sol = Solution()
 print(sol.convertToTitle(28))
 
+'''
+Example 1:
+
+Input: columnNumber = 1
+
+Output: "A"
+
+Example 2:
+
+Input: columnNumber = 28
+
+Output: "AB"
+
+Example 3:
+
+Input: columnNumber = 701
+
+Output: "ZY"
+'''
+
+
