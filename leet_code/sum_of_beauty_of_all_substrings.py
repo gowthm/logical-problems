@@ -18,3 +18,16 @@ class Solution(object):
 
 sol = Solution()
 print(sol.beautySum('aabcbaa'))
+
+'''
+Example 1:
+
+Input: s = "aabcb"
+Output: 5
+Explanation: The substrings with non-zero beauty are ["aab","aabc","aabcb","abcb","bcb"], each with beauty equal to 1.
+
+Example 2:
+
+Input: s = "aabcbaa"
+Output: 17
+'''
