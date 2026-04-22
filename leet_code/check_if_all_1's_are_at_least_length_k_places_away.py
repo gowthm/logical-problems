@@ -6,6 +6,8 @@ class Solution(object):
         :rtype: bool
         """
         
+sol = Solution()
+print(sol.kLengthApart([1,0,0,0,1,0,0,1], 2))
 
 
 '''
