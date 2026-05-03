@@ -14,6 +14,7 @@ sol = Solution()
 print(sol.minMovesToSeat( [2,2,6,6], [1,3,2,6]))
 
 '''
+
 Example 1:
 
 Input: seats = [3,1,5], students = [2,7,4]
@@ -46,5 +47,6 @@ The students are moved as follows:
 - The third student is not moved.
 - The fourth student is not moved.
 In total, 1 + 3 + 0 + 0 = 4 moves were used.
+
         
 '''
