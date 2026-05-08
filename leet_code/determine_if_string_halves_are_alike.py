@@ -12,7 +12,6 @@ class Solution(object):
             j+=1
         return a == b
 
-
 sol = Solution()
 print(sol.halvesAreAlike("textbook"))
 
