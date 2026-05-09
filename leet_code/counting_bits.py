@@ -10,6 +10,5 @@ class Solution(object):
         return finalArr
             
           
-
 sol = Solution()
 print(sol.countBits(5))
